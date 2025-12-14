@@ -1,84 +1,99 @@
- *{
+ * {
     margin: 0;
  }
 
- 
- section{
+
+ section {
     margin: 38px 90px;
+    min-height: 150px;
+    max-width: 1440px;
  }
- h2{
+
+ .rezepte {
+    background-color: #EFEFEF;
+ }
+
+ h2 {
     text-align: center;
     padding: 24px 0;
  }
- .wok-pfanne-text{
+
+ .wok-pfanne-text {
     /* text-align: center; */
     display: flex;
  }
 
- .wok-img{
+ .wok-img {
     height: 180px;
     object-fit: contain;
     border-radius: 10px;
     margin-left: 24px;
  }
- 
+
  footer {
     padding: 0 90px;
-    max-width: 1440px;
-     background-color: rgb(14, 14, 14);
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     color: white;
+    background-color: #403B3B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
  }
-.folgen{
+
+ .folgen {
     font-size: 36px;
     padding-top: 20px;
-}
+    max-width: 1440px;
+ }
+
  .footerlogo {
     padding-bottom: 20px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+
  }
 
  .border {
-     margin: 0px 8px;
-     border-radius: 100%;
+    margin: 0px 8px;
+    border-radius: 100%;
  }
 
  .socialmedia {
-     object-fit: contain;
-     height: 40px;
+    object-fit: contain;
+    height: 40px;
  }
 
  .footer-links {
-     padding: 20px 0;
-     width: 100%;
-     border-bottom: 2px grey dashed;
-     border-top: 2px grey dashed;
-     gap: 32px;
-     display: flex;
-     justify-content: space-around;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px grey dashed;
+    border-top: 1px grey dashed;
+    gap: 32px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
  }
 
  .footer-link {
-     text-decoration: none;
-     color: white;
+    text-decoration: none;
+    color: white;
  }
- .copyright{
+
+ .copyright {
     padding: 20px 0;
+    max-width: 1440px;
  }
- .icon8{
+
+ .icon8 {
     display: flex;
     gap: 8px;
  }
 
- a:hover{
+ a:hover {
     color: grey;
     text-decoration: underline;
  }
