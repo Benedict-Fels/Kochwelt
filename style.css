@@ -19,7 +19,6 @@
  }
 
  .wok-pfanne-text {
-    /* text-align: center; */
     display: flex;
  }
 
@@ -29,6 +28,7 @@
     border-radius: 10px;
     margin-left: 24px;
  }
+
 
  footer {
     padding: 0 90px;
@@ -42,7 +42,6 @@
  .folgen {
     font-size: 36px;
     padding-top: 20px;
-    max-width: 1440px;
  }
 
  .footerlogo {
@@ -96,4 +95,37 @@
  a:hover {
     color: grey;
     text-decoration: underline;
+ }
+
+ .section1 {
+    display: flex;
+ }
+
+ .section1 img {
+    height: 220px;
+    width: auto;
+    border-radius: 10px;
+ }
+
+ h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+ }
+
+ .section1 p {
+    font-weight: 200;
+    margin-top: 20px;
+ }
+
+ .section1 button {
+    background: green;
+    color: white;
+    padding: 10px 40px;
+    border-style: none;
+    margin-top: 55px;
+ }
+
+ .section1 div {
+    margin-left: 30px;
  }
