@@ -215,3 +215,61 @@ h1 {
 .section1 div {
    margin-left: 30px;
 }
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+.kontaktformular {
+   background: #efefef;
+   height: 100%;
+   width: 500px;
+   border-radius: 15px;
+   font-weight: 200;
+   padding: 15px;
+}
+
+.kontaktformular_button:hover {
+   cursor: pointer;
+}
+
+form input {
+   border: none;
+   border-radius: 5px;
+   height: 20px;
+   margin-bottom: 30px;
+}
+
+.kontaktiere_uns {
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.kontaktformular_button {
+   background: green;
+   color: white;
+   border-style: none;
+   height: 30px;
+   width: 120px;
+   border-radius: 0px;
+   margin-bottom: 0px;
+}
+
+.deinenachricht_input {
+   height: 250px;
+   padding-bottom: 230px;
+   box-sizing: border-box;
+}
+
+.kontaktformular_section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.kontaktbutton_container {
+   display: flex;
+   justify-content: center;
+}
