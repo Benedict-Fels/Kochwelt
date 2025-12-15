@@ -64,6 +64,7 @@ nav a:hover {
 body {
    font-family: Raleway;
    font-size: 16px;
+   font-weight: 200;
    color: rgb(40, 40, 40);
 }
 
@@ -73,14 +74,16 @@ section {
    flex: 1;
 }
 
-.abovesection{
+.abovesection {
    display: flex;
    justify-content: center;
 }
 
 h2 {
    text-align: center;
-   padding: 24px 0;
+   margin-bottom: 38px;
+   font-size: 20px;
+   font-weight: 500;
 }
 
 .wok-pfanne-text {
@@ -189,18 +192,18 @@ a:hover {
 
 .backgroundcolor {
    background-color: #EFEFEF;
-   padding-bottom: 70px;
 }
 
 .section2 img {
    height: 220px;
    width: 220px;
    border-radius: 10px;
+   object-fit: cover;
 }
 
 
 h1 {
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 500;
    margin-top: 5px;
 }
@@ -216,6 +219,11 @@ h1 {
    padding: 10px 40px;
    border-style: none;
    margin-top: 55px;
+}
+
+.section1 button:hover {
+   cursor: pointer;
+   transform: scale(1.1);
 }
 
 .section1 div {
@@ -238,6 +246,7 @@ form {
 
 .kontaktformular_button:hover {
    cursor: pointer;
+   transform: scale(1.1);
 }
 
 form input {
@@ -273,9 +282,32 @@ form input {
    display: flex;
    justify-content: center;
    align-items: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
 .kontaktbutton_container {
    display: flex;
    justify-content: center;
+}
+
+.kontakt_div {
+   display: flex;
+   justify-content: center;
+}
+
+.section2 a {
+   text-decoration: none;
+}
+
+.section2 a p {
+   margin-top: 10px;
+   font-weight: 500;
+}
+
+.section2 a:hover {
+   text-decoration: underline;
+   text-underline-offset: 10px;
+   text-decoration-thickness: 4px;
+   color: #008000;
 }
