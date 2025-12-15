@@ -60,6 +60,15 @@ nav a:hover {
   text-decoration-thickness: 4px;
   color: #008000;
 }
+ * {
+    margin: 0;
+ }
+
+ body {
+    font-family: Raleway;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+ }
 
 section {
   margin: 38px 90px;
