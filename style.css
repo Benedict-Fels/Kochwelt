@@ -69,8 +69,7 @@ body {
 
 section {
    padding: 38px 90px;
-   min-height: 150px;
-   max-width: 1440px;
+   /* max-width: 1440px; */
 }
 
 h2 {
@@ -101,6 +100,8 @@ footer {
 .folgen {
    font-size: 36px;
    padding-top: 20px;
+   display: flex;
+   align-items: center;
 }
 
 .footersocialmedia {
@@ -115,10 +116,10 @@ footer {
 }
 
 .logofooter {
-   height: 40px;
+   height: 44px;
    object-fit: contain;
    filter: invert(1);
-   padding: 0 4px;
+   padding: 0 10px;
 }
 
 .border {
