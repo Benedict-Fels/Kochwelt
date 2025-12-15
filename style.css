@@ -69,7 +69,13 @@ body {
 
 section {
    padding: 38px 90px;
-   /* max-width: 1440px; */
+   max-width: 1440px;
+   flex: 1;
+}
+
+.abovesection{
+   display: flex;
+   justify-content: center;
 }
 
 h2 {
@@ -82,7 +88,7 @@ h2 {
 }
 
 .wok-img {
-   height: 200px;
+   height: 180px;
    object-fit: contain;
    border-radius: 10px;
    margin-left: 24px;
