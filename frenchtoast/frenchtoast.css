@@ -181,3 +181,8 @@
      text-decoration-thickness: 4px;
      color: #008000;
  }
+
+ .content {
+    display: flex;
+    justify-content: center;
+ }
