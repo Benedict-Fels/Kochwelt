@@ -1,189 +1,204 @@
- * {
-    margin: 0;
- }
+* {
+  margin: 0;
+}
 
- html {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 header {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120px;
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
 }
 
 .logo-and-nav {
-    height: 120px;
-    padding-left: 150px;
-    padding-right: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  height: 120px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .logo-position {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-position p {
-    font-family: "Raleway", sans-serif;
-    font-size: 38px;
-    height: 38px;
-    margin-bottom: 24px;
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  height: 38px;
+  margin-bottom: 24px;
 }
 
 .logo-position img {
-    height: 58px;
-    width: 52px;
-    margin-bottom: 20px;
+  height: 58px;
+  width: 52px;
+  margin-bottom: 20px;
 }
 
 .nav-position {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 nav a {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    color: black;
-    font-weight: bold;
-    padding-left: 16px;
-    text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-left: 16px;
+  text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 4px;  
-    color: #008000;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 4px;
+  color: #008000;
 }
 
- section {
-    margin: 38px 90px;
-    min-height: 150px;
-    max-width: 1440px;
- }
+section {
+  margin: 38px 90px;
+  min-height: 150px;
+  max-width: 1440px;
+}
 
- .rezepte {
-    background-color: #EFEFEF;
- }
+.rezepte {
+  background-color: #efefef;
+}
 
- h2 {
-    text-align: center;
-    padding: 24px 0;
- }
+h2 {
+  text-align: center;
+  padding: 24px 0;
+}
 
- .wok-pfanne-text {
-    display: flex;
- }
+.wok-pfanne-text {
+  display: flex;
+}
 
- .wok-img {
-    height: 180px;
-    object-fit: contain;
-    border-radius: 10px;
-    margin-left: 24px;
- }
+.wok-img {
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-left: 24px;
+}
+
+footer {
+  padding: 0 90px;
+  background-color: #403b3b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.folgen {
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.footerlogo {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.border {
+  margin: 0px 8px;
+  border-radius: 100%;
+}
+
+.socialmedia {
+  object-fit: contain;
+  height: 40px;
+}
+
+.footer-links {
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 1px grey dashed;
+  border-top: 1px grey dashed;
+  gap: 32px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  padding: 20px 0;
+  max-width: 1440px;
+}
+
+.icon8 {
+  display: flex;
+  gap: 8px;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+.section1 {
+  display: flex;
+}
+
+.section1 img {
+  height: 220px;
+  width: auto;
+  border-radius: 10px;
+}
+.section2{
+   display: flex;
+   justify-content:space-between;
+   text-align: center;
+}
+
+.backgroundcolor{
+   background-color: #EFEFEF;
+   padding-bottom: 70px;
+}
+
+.section2 img{
+   height: 220px;
+   width: 220px;
+   border-radius: 10px;
+}
 
 
- footer {
-    padding: 0 90px;
-    background-color: #403B3B;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: white;
- }
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
 
- .folgen {
-    font-size: 36px;
-    padding-top: 20px;
- }
+.section1 p {
+  font-weight: 200;
+  margin-top: 20px;
+}
 
- .footerlogo {
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1440px;
+.section1 button {
+  background: green;
+  color: white;
+  padding: 10px 40px;
+  border-style: none;
+  margin-top: 55px;
+}
 
- }
-
- .border {
-    margin: 0px 8px;
-    border-radius: 100%;
- }
-
- .socialmedia {
-    object-fit: contain;
-    height: 40px;
- }
-
- .footer-links {
-    padding: 20px 0;
-    width: 100%;
-    border-bottom: 1px grey dashed;
-    border-top: 1px grey dashed;
-    gap: 32px;
-    display: flex;
-    justify-content: space-around;
-    max-width: 1440px;
- }
-
- .footer-link {
-    text-decoration: none;
-    color: white;
- }
-
- .copyright {
-    padding: 20px 0;
-    max-width: 1440px;
- }
-
- .icon8 {
-    display: flex;
-    gap: 8px;
- }
-
- a:hover {
-    color: grey;
-    text-decoration: underline;
- }
-
- .section1 {
-    display: flex;
- }
-
- .section1 img {
-    height: 220px;
-    width: auto;
-    border-radius: 10px;
- }
-
- h1 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 5px;
- }
-
- .section1 p {
-    font-weight: 200;
-    margin-top: 20px;
- }
-
- .section1 button {
-    background: green;
-    color: white;
-    padding: 10px 40px;
-    border-style: none;
-    margin-top: 55px;
- }
-
- .section1 div {
-    margin-left: 30px;
- }
+.section1 div {
+  margin-left: 30px;
+}
