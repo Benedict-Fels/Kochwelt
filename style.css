@@ -1,7 +1,8 @@
-* {
-    margin: 0px;
-}
-html {
+ * {
+    margin: 0;
+ }
+
+ html {
     scroll-behavior: smooth;
 }
 
@@ -58,6 +59,9 @@ nav a:hover {
     text-decoration-thickness: 4px;  
     color: #008000;
 }
+ * {
+    margin: 0;
+ }
 
  body {
     font-family: Raleway;
@@ -67,6 +71,12 @@ nav a:hover {
 
  section {
     margin: 38px 90px;
+    min-height: 150px;
+    max-width: 1440px;
+ }
+
+ .rezepte {
+    background-color: #EFEFEF;
  }
 
  h2 {
@@ -75,7 +85,6 @@ nav a:hover {
  }
 
  .wok-pfanne-text {
-    /* text-align: center; */
     display: flex;
  }
 
@@ -86,10 +95,10 @@ nav a:hover {
     margin-left: 24px;
  }
 
+
  footer {
     padding: 0 90px;
-    max-width: 1440px;
-    background-color: rgb(14, 14, 14);
+    background-color: #403B3B;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -109,6 +118,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 1440px;
 
  }
 
@@ -125,11 +135,12 @@ nav a:hover {
  .footer-links {
     padding: 20px 0;
     width: 100%;
-    border-bottom: 2px grey dashed;
-    border-top: 2px grey dashed;
+    border-bottom: 1px grey dashed;
+    border-top: 1px grey dashed;
     gap: 32px;
     display: flex;
     justify-content: space-around;
+    max-width: 1440px;
  }
 
  .footer-link {
@@ -139,6 +150,7 @@ nav a:hover {
 
  .copyright {
     padding: 20px 0;
+    max-width: 1440px;
  }
 
  .icon8 {
