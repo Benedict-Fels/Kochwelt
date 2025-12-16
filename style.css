@@ -20,7 +20,6 @@ header {
    padding-right: 150px;
    display: flex;
    justify-content: space-between;
-   align-items: flex-end;
 }
 
 .logo-position {
@@ -32,17 +31,26 @@ header {
    font-family: "Raleway", sans-serif;
    font-size: 38px;
    height: 38px;
-   margin-bottom: 24px;
 }
 
 .logo-position img {
    height: 58px;
    width: 52px;
-   margin-bottom: 20px;
+}
+
+.logo-position a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-position {
    padding-bottom: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
 }
 
 nav a {
