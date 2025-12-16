@@ -1,0 +1,114 @@
+h3 {
+    font-size: 32px;
+    padding: 8px 0;
+}
+
+.asianudeln-img {
+    width: 100%;
+    max-width: 1440px;
+    height: 180px;
+    object-fit: none;
+    padding: 8px 0;
+}
+
+.rezeptinfos {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.rezeptinfo-icons {
+    height: 20px;
+    object-fit: contain;
+    padding-right: 8px;
+}
+
+.rezeptinfo {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    background-color: rgb(0, 128, 0, 0.1);
+    border-radius: 10px;
+}
+
+.rezept-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 420px;
+}
+
+.padding-right {
+    padding-right: 8px;
+}
+
+.button {
+    background: #008000;
+    color: white;
+    padding: 10px 26px;
+    border-width: 0px;
+    text-decoration: none;
+    width: 100px;
+}
+
+form input {
+    margin: 0;
+    height: 35px;
+    border: 1px solid #008000;
+    border-radius: 10px 0 0 10px;
+    width: 100px;
+    flex: 1;
+    padding: 0;
+}
+
+.zutaten {
+    display: flex;
+    max-width: 1440px;
+    padding: 8px 0;
+}
+
+.anzahl {
+    text-align: end;
+    min-width: 80px;
+    padding-right: 16px;
+}
+
+.grey {
+    background-color: rgb(0, 128, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.top-border {
+    border-top: 1px black dashed;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 18px;
+}
+
+h5 {
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.ersteller {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 90px;
+}
+
+.ersteller img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
