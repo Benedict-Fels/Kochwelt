@@ -128,61 +128,68 @@
      font-size: 20px;
  }
 
- header {
-     top: 0;
-     left: 0;
-     right: 0;
-     height: 120px;
-     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
- }
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+}
 
- .logo-and-nav {
-     height: 120px;
-     padding-left: 150px;
-     padding-right: 150px;
-     display: flex;
-     justify-content: space-between;
-     align-items: flex-end;
- }
+.logo-and-nav {
+    height: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
 
- .logo-position {
-     display: flex;
-     align-items: center;
- }
+.logo-position {
+    display: flex;
+    align-items: center;
+}
 
- .logo-position p {
-     font-family: "Raleway", sans-serif;
-     font-size: 38px;
-     height: 38px;
-     margin-bottom: 24px;
-     font-weight: 400;
- }
+.logo-position p {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    height: 38px;
+}
 
- .logo-position img {
-     height: 58px;
-     width: 52px;
-     margin-bottom: 20px;
- }
+.logo-position img {
+    height: 58px;
+    width: 52px;
+}
 
- .nav-position {
-     padding-bottom: 8px;
- }
+.logo-position a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
 
- nav a {
-     font-family: "Raleway", sans-serif;
-     font-size: 16px;
-     color: black;
-     font-weight: bold;
-     padding-left: 16px;
-     text-decoration: none;
- }
+.nav-position {
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
- nav a:hover {
-     text-decoration: underline;
-     text-underline-offset: 10px;
-     text-decoration-thickness: 4px;
-     color: #008000;
- }
+nav a {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+    color: #008000;
+}
 
  .content {
     display: flex;
