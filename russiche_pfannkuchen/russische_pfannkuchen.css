@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+.logo-and-nav {
+  height: 120px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo-position {
+  display: flex;
+  align-items: center;
+}
+
+.logo-position p {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  height: 38px;
+  margin-bottom: 24px;
+}
+
+.logo-position img {
+  height: 58px;
+  width: 52px;
+  margin-bottom: 20px;
+}
+
+.nav-position {
+  padding-bottom: 8px;
+}
+
+nav a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 4px;
+  color: #008000;
+}
+
+body {
+  font-family: Raleway;
+  font-size: 16px;
+  color: rgb(40, 40, 40);
+}
+
+section {
+  margin: 38px 90px;
+}
+.underh1{
+    margin-top: 16px;
+}
+
+.russianpancake {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.icon3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 48px;
+}
+
+.time-brain-calendar {
+  height: 15px;
+  padding-right: 8px;
+}
+
+.border-icon {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.portions{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+tr {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+td{
+  border-radius: 10px;
+  padding-left: 24px;
+}
+
+.table-padding-bottom{
+    padding-bottom: 36px;
+    padding-top: 16px;
+    width: 100%;
+    height: 350px;
+}
+
+.place-between-p-and-input{
+    margin-right: 16px;
+}
+
+input{
+    height: 35px;
+}
+
+.button{
+    font-weight: bold;
+    background-color: #118411;
+    color: white;
+    padding: 10px 40px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+.rezept-russian-pancake{
+    padding-bottom: 36px;
+}
+
+.cooking-time{
+    background-color: #f0f0f0 ;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.preparation{
+    font-weight: bold;
+}
+
+
+.profile-logo{
+    height: 100px;
+    border-radius: 50px;    
+}
+
+.recipe-created-by{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    gap: 24px;
+}
