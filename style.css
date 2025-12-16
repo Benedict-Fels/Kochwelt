@@ -44,11 +44,11 @@ header {
 }
 
 .logo-position a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: black;
 }
 
 .nav-position {
@@ -195,6 +195,7 @@ footer a:hover {
    height: 220px;
    width: auto;
    border-radius: 10px;
+   object-fit: cover;
 }
 
 .section2 {
@@ -324,4 +325,62 @@ form input {
    text-underline-offset: 10px;
    text-decoration-thickness: 4px;
    color: #008000;
+}
+
+
+@media (max-width: 800px) {
+   .section1 {
+      flex-direction: column;
+   }
+
+   .section1 img {
+      margin-bottom: 20px;
+   }
+
+   .section1 button {
+      margin-top: 20px;
+
+   }
+
+   .section1 div {
+      margin-left: 0px;
+   }
+
+   h1 {
+      text-align: center;
+   }
+
+   .section1_responsive {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .wok-pfanne-text {
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+   }
+
+   .wok-img {
+      object-fit: cover;
+   }
+
+}
+
+@media (max-width: 1160px) {
+   .section2 {
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+}
+
+@media (max-width: 560px) {
+  .kontaktformular {
+   width: 250px;
+  }
 }
