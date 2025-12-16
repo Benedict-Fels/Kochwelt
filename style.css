@@ -177,7 +177,7 @@ footer {
    justify-content: center;
 }
 
-a:hover {
+footer a:hover {
    color: #008000;
    text-decoration: underline;
 }
