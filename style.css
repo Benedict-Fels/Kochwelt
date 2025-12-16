@@ -64,6 +64,7 @@ nav a:hover {
 body {
    font-family: Raleway;
    font-size: 16px;
+   font-weight: 200;
    color: rgb(40, 40, 40);
 }
 
@@ -73,14 +74,16 @@ section {
    flex: 1;
 }
 
-.abovesection{
+.abovesection {
    display: flex;
    justify-content: center;
 }
 
 h2 {
    text-align: center;
-   padding: 24px 0;
+   margin-bottom: 38px;
+   font-size: 20px;
+   font-weight: 500;
 }
 
 .wok-pfanne-text {
@@ -189,18 +192,18 @@ a:hover {
 
 .backgroundcolor {
    background-color: #EFEFEF;
-   padding-bottom: 70px;
 }
 
 .section2 img {
    height: 220px;
    width: 220px;
    border-radius: 10px;
+   object-fit: cover;
 }
 
 
 h1 {
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 500;
    margin-top: 5px;
 }
@@ -218,6 +221,94 @@ h1 {
    margin-top: 55px;
 }
 
+.section1 button:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
 .section1 div {
    margin-left: 30px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+.kontaktformular {
+   background: #efefef;
+   height: 100%;
+   width: 500px;
+   border-radius: 15px;
+   font-weight: 200;
+   padding: 15px;
+}
+
+.kontaktformular_button:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+form input {
+   border: none;
+   border-radius: 5px;
+   height: 20px;
+   margin-bottom: 30px;
+}
+
+.kontaktiere_uns {
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.kontaktformular_button {
+   background: green;
+   color: white;
+   border-style: none;
+   height: 30px;
+   width: 120px;
+   border-radius: 0px;
+   margin-bottom: 0px;
+}
+
+.deinenachricht_input {
+   height: 250px;
+   padding-bottom: 230px;
+   box-sizing: border-box;
+}
+
+.kontaktformular_section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+
+.kontaktbutton_container {
+   display: flex;
+   justify-content: center;
+}
+
+.kontakt_div {
+   display: flex;
+   justify-content: center;
+}
+
+.section2 a {
+   text-decoration: none;
+   color: rgb(40, 40, 40);
+}
+
+.section2 a p {
+   margin-top: 10px;
+   font-weight: 500;
+}
+
+.section2 a:hover {
+   text-decoration: underline;
+   text-underline-offset: 10px;
+   text-decoration-thickness: 4px;
+   color: #008000;
 }

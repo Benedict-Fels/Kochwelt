@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum Kochwelt</title>
-    <link rel="icon" href="./img/logo_small.png">
+    <title>Kontakt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="./img/logo_small.png">
 </head>
+
 
 <body>
     <header>
@@ -31,18 +33,28 @@
         </div>
     </header>
 
-    <section>
-        <h1>Impressum</h1>
-        <h2 id="m46" style="text-align: left; margin-top: 30px;">Diensteanbieter</h2>
-        <p>Developer Acadmie GmbH</p>
-        <p>Rosenheimer Straße 139</p>
-        <p>81379 München</p>
-        <p>Deutschland</p>
+    <div class="kontakt_div">
+    <section class="kontaktformular_section">
+        <div class="kontaktformular">
+            <p class="kontaktiere_uns">Kontaktiere uns</p>
 
-        <h2 id="m56" style="text-align: left; margin-top: 30px;">Kontaktmöglichkeiten</h2>
-        <p>E-Mail-Adresse: <a href="mailto:info@developerakademie.com">info@developerakademie.com</a></p>
-        <p>Kontaktformular: kontaktformular.html</p>
+            <form onsubmit="sendMail(event)">
+                <label for="">Dein Name:</label>
+                <input type="text" required>
+
+                <label for="">Deine E-Mail:</label>
+                <input type="email" name="email" required>
+
+                <label for="">Deine Nachricht:</label>
+                <input class="deinenachricht_input" type="text" name="message" required>
+                <div class="kontaktbutton_container">
+                    <input class="kontaktformular_button" type="submit" value="Abschicken">
+                </div>
+            </form>
+
+        </div>
     </section>
+    </div>
 
     <footer>
         <p class="folgen">Folge <img class="logofooter" src="./img/logo_small.png" /> Kochwelt auf</p>
@@ -76,6 +88,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
