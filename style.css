@@ -7,17 +7,22 @@ html {
 }
 
 header {
-   top: 0;
+   /* top: 0;
    left: 0;
    right: 0;
-   height: 120px;
+   height: 120px; */
+   max-width: 1440px;
+   margin-left: 90px;
+   margin-right: 90px;
+   flex: 1;
+}
+
+.box-shadow {
    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
 }
 
 .logo-and-nav {
    height: 120px;
-   padding-left: 150px;
-   padding-right: 150px;
    display: flex;
    justify-content: space-between;
 }
