@@ -168,7 +168,7 @@ input {
 .recipe-created-by {
   display: flex;
   align-items: center;
-  padding-top: 40 px;
+  padding-top: 40px;
   gap: 24px;
   padding-bottom: 56px;
 }
