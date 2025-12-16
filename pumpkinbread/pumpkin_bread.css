@@ -19,7 +19,6 @@ header {
     padding-right: 150px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .logo-position {
@@ -31,17 +30,27 @@ header {
     font-family: "Raleway", sans-serif;
     font-size: 38px;
     height: 38px;
-    margin-bottom: 24px;
 }
 
 .logo-position img {
     height: 58px;
     width: 52px;
-    margin-bottom: 20px;
 }
+
+.logo-position a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
 
 .nav-position {
     padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 nav a {
@@ -61,14 +70,14 @@ nav a:hover {
 
 .recipe-overview {
     padding-top: 100px;
-    height: 300px;
+    height: 280px;
 }
 
 
 .recipe-overview img {
     height: 200px;
     width: 100%;
-    object-fit: none;
+    object-fit: cover;
     border-radius: 20px;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -86,9 +95,16 @@ body {
 .informations {
     display: flex;
     align-items: center;
+    margin-top: 8px;
     padding-bottom: 64px;
     border-bottom: 1px solid #EFEFEF;
 }
+
+.how-to {
+    display: block;
+    /* width: 800px; */
+}
+
 
 .time-skill-information img {
     width: 12px;
@@ -96,7 +112,6 @@ body {
 }
 
 .time-skill-information {
-    width: 70px;
     background-color: #EFEFEF;
     padding: 6px;
     margin-right: 30px;
@@ -106,30 +121,32 @@ body {
     align-items: center;
 }
 
-.date-information {
-    width: 98px;
-}
+/* .date-information {
+} */
 
 .separator {
     border-bottom: 1px solid;
 }
 
 .ingredients {
-    margin-top: 8px;
-    margin-bottom: 8px;
-
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .ingredients input {
-    height: 24px;
-    border-radius: 6px;
+    border-radius: 8px 0px 0px 8px;
+    border-color: #EFEFEF;
+    border-width: thin;
+    width: 124px;
+    padding: 5px 1px;
 }
 
 .ingredients a {
     background-color: #008000;
     color: white;
-    padding: 6px 24px;
-    column-gap: 4px;
+    padding: 7px 26px;
+    font-size: 12px;
+    column-gap: 8px;
 }
 
 table {
@@ -142,20 +159,21 @@ table td {
     border-radius: 8px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #EFEFEF;
 }
 
 .time-estimate-information {
-    width: 240px;
-    height: 50px;
     background-color: #EFEFEF;
-    padding: 6px;
     margin-right: 30px;
     border-radius: 8px;
     column-gap: 4px;
     display: flex;
     align-items: center;
+}
+
+h2 {
+    margin-bottom: 16px;
 }
 
 .recipe-by {
@@ -179,24 +197,80 @@ tr:nth-child(even) {
     font-size: 24px;
 }
 
-.footer-style {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 144px;
-    background-color:  #0A141E;
+footer {
+   padding: 0 90px;
+   background-color: #403b3b;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   color: white;
 }
 
-.social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 15px;
-    color: white;
+.folgen {
+   font-size: 36px;
+   padding-top: 20px;
+   display: flex;
+   align-items: center;
 }
 
-.social-img {
-    height: 40px;
-    width: 40px;
+.footersocialmedia {
+   padding-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   max-width: 1440px;
 }
 
+.logofooter {
+   height: 44px;
+   object-fit: contain;
+   filter: invert(1);
+   padding: 0 10px;
+}
+
+.border {
+   margin: 0px 8px;
+   border-radius: 100%;
+}
+
+.socialmedia {
+   object-fit: contain;
+   height: 40px;
+}
+
+.footer-links {
+   padding: 16px 0;
+   width: 100%;
+   border-bottom: 1px grey dashed;
+   border-top: 1px grey dashed;
+   gap: 32px;
+   display: flex;
+   justify-content: space-around;
+   max-width: 750px;
+}
+
+.footer-link {
+   text-decoration: none;
+   color: white;
+}
+
+.copyright {
+   padding: 20px 0;
+   max-width: 1440px;
+}
+
+.icon8 {
+   display: flex;
+   gap: 8px;
+   display: flex;
+   justify-content: center;
+}
+
+
+/* a:hover {
+   color: #008000;
+   text-decoration: underline;
+} */
