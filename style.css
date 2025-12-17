@@ -308,6 +308,7 @@ form input {
 
    .wok-img {
       object-fit: cover;
+      margin-left: 0;
    }
 
    .footer-links {
@@ -319,12 +320,11 @@ form input {
 
    .datenschutz h1 {
       text-align: start;
-      font-size: 16px;
    }
 
-   .datenschutz h2 {
+   /* .datenschutz h2 {
       font-size: 13px;
-   }
+   } */
 
 }
 
