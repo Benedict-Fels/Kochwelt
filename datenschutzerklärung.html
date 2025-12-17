@@ -11,25 +11,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function toggleRespMenu() {
+            document.getElementById("resp_menu").classList.toggle('resp_menu_closed')
+        }
+
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 </head>
 
 <body>
-    <header>
-        <div class="logo-and-nav">
-            <div class="logo-position">
-                <img src="./img/logo_small.png" />
-                <p>Kochwelt</p>
+    <div class="abovesection box-shadow content">
+        <header>
+            <div class="logo-and-nav">
+                <div class="logo-position">
+                    <a href="index.html">
+                        <img src="../img/logo_small.png" />
+                        <p>Kochwelt</p>
+                    </a>
+                </div>
+                <div class="nav-position">
+                    <nav>
+                        <a href="../index.html">Start</a>
+                        <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+                        <a href="../kontakt.html">Kontakt</a>
+                        <a href="../Impressum.html">Impressum</a>
+                    </nav>
+                </div>
+                <div class="burgermenu">
+                    <div class="animatedbutton" onclick="myFunction(this); toggleRespMenu()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
             </div>
-            <div class="nav-position">
-                <nav>
-                    <a href="index.html">Start</a>
-                    <a href="./pumpkinbread/index.html">Rezept des Tages</a>
-                    <a href="kontakt.html">Kontakt</a>
-                    <a href="impressum.html">Impressum</a>
-                </nav>
-            </div>
-        </div>
-    </header>
+        </header>
+    </div>
+    <div class="resp_menu_box resp_menu_closed" id="resp_menu">
+        <a href="../index.html">Start</a>
+        <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+        <a href="../kontakt.html">Kontakt</a>
+        <a href="../Impressum.html">Impressum</a>
+    </div>
     <div class="abovesection">
         <section class="datenschutz">
             <h1>Datenschutzerklärung</h1>

@@ -12,29 +12,54 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <link rel="icon" href="./img/logo_small.png">
+
+    <script>
+        function toggleRespMenu() {
+            document.getElementById("resp_menu").classList.toggle('resp_menu_closed')
+        }
+
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+
 </head>
 
 
 <body>
-    <header>
-        <div class="logo-and-nav">
-            <div class="logo-position">
-                <a href="index.html">
-                    <img src="./img/logo_small.png" />
-                    <p>Kochwelt</p>
-                </a>
-
+    <div class="abovesection box-shadow content">
+        <header>
+            <div class="logo-and-nav">
+                <div class="logo-position">
+                    <a href="index.html">
+                        <img src="../img/logo_small.png" />
+                        <p>Kochwelt</p>
+                    </a>
+                </div>
+                <div class="nav-position">
+                    <nav>
+                        <a href="../index.html">Start</a>
+                        <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+                        <a href="../kontakt.html">Kontakt</a>
+                        <a href="../Impressum.html">Impressum</a>
+                    </nav>
+                </div>
+                <div class="burgermenu">
+                    <div class="animatedbutton" onclick="myFunction(this); toggleRespMenu()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
             </div>
-            <div class="nav-position">
-                <nav>
-                    <a href="index.html">Start</a>
-                    <a href="./pumpkinbread/index.html">Rezept des Tages</a>
-                    <a href="kontakt.html">Kontakt</a>
-                    <a href="Impressum.html">Impressum</a>
-                </nav>
-            </div>
-        </div>
-    </header>
+        </header>
+    </div>
+    <div class="resp_menu_box resp_menu_closed" id="resp_menu">
+        <a href="../index.html">Start</a>
+        <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+        <a href="../kontakt.html">Kontakt</a>
+        <a href="../Impressum.html">Impressum</a>
+    </div>
 
     <div class="kontakt_div">
     <section class="kontaktformular_section">
