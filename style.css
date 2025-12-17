@@ -470,6 +470,7 @@ nav a:hover {
 
 .resp_menu_closed {
    transform: translateX(100%);
+   display: none;
 }
 
 #resp_menu a {
@@ -528,6 +529,10 @@ nav a:hover {
 
    .logo-position a img {
       margin-right: 10px;
+   }
+
+   #resp_menu {
+      display:none;
    }
 }
 
