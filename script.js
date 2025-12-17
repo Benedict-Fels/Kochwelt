@@ -14,3 +14,11 @@ function sendMail(event) {
         console.log(error);
     });
 }
+
+function toggleRespMenu() {
+    document.getElementById("resp_menu").classList.toggle('resp_menu_closed')
+}
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
