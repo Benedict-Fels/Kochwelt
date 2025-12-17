@@ -368,6 +368,14 @@ form input {
       object-fit: cover;
    }
 
+   .datenschutz h1 {
+      text-align: start;
+      font-size: 16px;
+   }
+   .datenschutz h2 {
+      font-size: 13px;
+   }
+
 }
 
 @media (max-width: 1160px) {
@@ -380,7 +388,7 @@ form input {
 }
 
 @media (max-width: 560px) {
-  .kontaktformular {
-   width: 250px;
-  }
+   .kontaktformular {
+      width: 250px;
+   }
 }
