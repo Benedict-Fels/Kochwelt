@@ -163,6 +163,7 @@ footer {
    /* display: flex;
    justify-content: space-around; */
    max-width: 750px;
+   text-align: center;
 }
 
 .footer-link {
@@ -372,6 +373,7 @@ form input {
       display: flex;
       text-align: center;
       flex-direction: column;
+      gap: 8px;
    }
 
 }
@@ -402,6 +404,19 @@ form input {
       display: flex;
       text-align: center;
       flex-direction: column;
+
    }
 
+}
+
+@media (min-width:320px){
+   .footer-links{
+      gap: 8px;
+   }
+
+   .copyright{
+      min-width: 300px;
+      font-size: 14px;
+      gap: 8px;
+   }
 }
