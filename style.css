@@ -42,6 +42,10 @@ h2 {
    margin-left: 24px;
 }
 
+.hide-text{
+   margin-right: 12px;
+}
+
 footer {
    padding: 0 90px;
    background-color: #403b3b;
@@ -95,6 +99,7 @@ footer {
    display: flex;
    justify-content: space-around;
    max-width: 750px;
+   text-align: center;
 }
 
 .footer-link {
@@ -278,7 +283,7 @@ form input {
       margin-left: 0px;
    }
 
-   h1 {
+   .section1_responsive h1 {
       text-align: center;
    }
 
@@ -300,6 +305,21 @@ form input {
       object-fit: cover;
    }
 
+   .footer-links {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      gap: 8px;
+   }
+
+   .datenschutz h1 {
+      text-align: start;
+      font-size: 16px;
+   }
+   .datenschutz h2 {
+      font-size: 13px;
+   }
+
 }
 
 @media (max-width: 1160px) {
@@ -312,9 +332,37 @@ form input {
 }
 
 @media (max-width: 560px) {
-   .kontaktformular {
-      width: 250px;
+    .kontaktformular {
+         width: 250px;
+  }
+
+  section {
+   padding: 38px 30px;
+  }
+
+   .hide-text {
+   display: none; 
    }
+
+   .copyright {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+
+   }
+
+}
+
+@media (min-width:320px){
+   .footer-links{
+      gap: 8px;
+   }
+
+   .copyright{
+      min-width: 300px;
+      font-size: 14px;
+      gap: 8px;
+     }
 }
 
 
