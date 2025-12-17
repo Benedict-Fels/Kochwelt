@@ -1,26 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="rezeptasianudeln.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <script src="../script.js"></script>
+  <link rel="icon" href="../img/logo_small.png">
   <title>Asia-Nudeln</title>
 </head>
-<header>
-  <div class="logo-and-nav">
-    <div class="logo-position">
-      <img src="../img/logo_small.png" />
-      <p>Kochwelt</p>
-    </div>
-    <div class="nav-position">
-      <nav>
-        <a href="#">Start</a>
-        <a href="#">Rezept des Tages</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Impressum</a>
-      </nav>
-    </div>
+<body>
+  <div class="abovesection box-shadow content">
+    <header>
+      <div class="logo-and-nav">
+        <div class="logo-position">
+          <a href="../index.html">
+            <img src="../img/logo_small.png" />
+            <p>Kochwelt</p>
+          </a>
+        </div>
+        <div class="nav-position">
+          <nav>
+            <a href="../index.html">Start</a>
+            <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+            <a href="../kontakt.html">Kontakt</a>
+            <a href="../Impressum.html">Impressum</a>
+          </nav>
+        </div>
+        <div class="burgermenu">
+          <div class="animatedbutton" onclick="myFunction(this); toggleRespMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
   </div>
-</header>
+  <div class="resp_menu_box resp_menu_closed" id="resp_menu">
+    <a href="../index.html">Start</a>
+    <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+    <a href="../kontakt.html">Kontakt</a>
+    <a href="../Impressum.html">Impressum</a>
+  </div>
 <div class="abovesection">
   <section>
     <h1>Asia-Nudeln - Chow Mien</h1>
@@ -128,34 +155,37 @@
   </section>
 </div>
 <footer>
-  <p class="folgen">Folge <img class="logofooter" src="../img/logo_small.png" /> Kochwelt auf</p>
-  <br />
-  <div class="footersocialmedia">
-    <a class="border" href="https://de.pinterest.com/" target="_blank">
-      <img class="socialmedia" src="../img/icons/pinterest.svg" alt="Pinterest" />
-    </a>
-    <a class="border" href="https://www.facebook.com/?locale=de_DE" target="_blank">
-      <img class="socialmedia" src="../img/icons/facebook.svg" alt="Facebook" />
-    </a>
-    <a class="border" href="https://www.instagram.com/" target="_blank">
-      <img class="socialmedia" src="../img/icons/instagram.svg" alt="Instagram" />
-    </a>
-    <a class="border" href="https://www.youtube.com/" target="_blank">
-      <img class="socialmedia" src="../img/icons/youtube.svg" alt="Youtube" />
-    </a>
-  </div>
-  <div class="footer-links">
-    <a class="footer-link" href="../index.html">Start</a>
-    <a class="footer-link" href="../rezept.html">Rezept des Tages</a>
-    <a class="footer-link" href="../kontakt.html">Kontakt</a>
-    <a class="footer-link" href="../Impressum.html">Impressum</a>
-    <a class="footer-link" href="../datenschutzerklärung.html">Datenschutz</a>
-  </div>
-  <div class="copyright">
-    <p>© Copyright 2025 Developer Akademie GmbH</p>
-    <div class="icon8">
-      <p>Icons stammen von</p>
-      <a class="footer-link" href="https://icons8.de/">icon8</a>
+    <p class="folgen">Folge <img class="logofooter" src="../img/logo_small.png" /><span class="hide-text">Kochwelt</span> auf</p>
+    <br />
+    <div class="footersocialmedia">
+      <a class="border" href="https://de.pinterest.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      <a class="border" href="https://www.facebook.com/?locale=de_DE" target="_blank">
+        <img class="socialmedia" src="../img/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a class="border" href="https://www.instagram.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a class="border" href="https://www.youtube.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/youtube.svg" alt="Youtube" />
+      </a>
     </div>
-  </div>
-</footer>
+    <div class="footer-links">
+      <a class="footer-link" href="../index.html">Start</a>
+      <a class="footer-link" href="../pumpkinbread/pumpkin_bread.html">Rezept des Tages</a>
+      <a class="footer-link" href="../kontakt.html">Kontakt</a>
+      <a class="footer-link" href="../Impressum.html">Impressum</a>
+      <a class="footer-link" href="../datenschutzerklärung.html">Datenschutz</a>
+    </div>
+    <div class="copyright">
+      <p>© Copyright 2025 Developer Akademie GmbH</p>
+      <div class="icon8">
+        <p>Icons stammen von</p>
+        <a class="footer-link" href="https://icons8.de/">icon8</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,130 +1,188 @@
 * {
-     margin: 0;
- }
+    margin: 0;
+}
 
- body {
-     font-family: Raleway;
-     font-size: 16px;
-     color: rgb(40, 40, 40);
-     font-weight: 200;
- }
+body {
+    font-family: Raleway;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+    font-weight: 200;
+}
 
- button {
-     background: green;
-     color: white;
-     padding: 10px 40px;
-     border-style: none;
-     margin-top: 55px;
- }
+button {
+    background: green;
+    color: white;
+    padding: 10px 40px;
+    border-style: none;
+    margin-top: 55px;
+}
 
- h1 {
-     font-size: 26px;
-     font-weight: 500;
-     margin-top: 5px;
-     margin-bottom: 15px;
- }
+h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
 
- .mainimage {
-     height: 150px;
-     width: 100%;
-     object-fit: cover;
-     border-radius: 10px;
- }
+.mainimage {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
- .quickfacts {
-     display: flex;
+.quickfacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
 
- }
+}
 
- .quickfacts img {
-     height: 10px;
-     margin-left: 5px;
-     margin-right: 5px;
- }
+.quickfacts img {
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
- .quickfacts div {
-     background-color: #efefef;
-     border-radius: 5px;
-     padding: 4px 10px 4px 4px;
-     margin-right: 20px;
-     margin-top: 25px;
- }
+.quickfacts div {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 4px 10px 4px 4px;
+    /* margin-right: 20px; */
+    margin-top: 25px;
+}
 
- table {
-     width: 100%;
-     margin-top: 10px;
- }
+table {
+    width: 100%;
+    margin-top: 10px;
+}
 
- table tr:nth-child(odd) {
-     background-color: #E7E9EB;
- }
+table tr:nth-child(odd) {
+    background-color: #E7E9EB;
+}
 
- td {
-     padding: 15px;
-     border-radius: 10px;
- }
+td {
+    padding: 15px;
+    border-radius: 10px;
+}
 
- .optional{
+.optional {
     font-weight: bold;
     border-top: 1px dashed black;
- }
+    border-radius: 0px;
+}
 
- input {
-     border: 1px solid #E7E9EB;
-     padding-top: 9px;
-     padding-bottom: 9px;
-     margin-left: 5px;
- }
+input {
+    border: 1px solid #E7E9EB;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 5px;
+}
 
- .portionenauswahl {
-     margin: 0;
- }
+.portionenauswahl {
+    margin: 0;
+}
 
- .zubereitung {
-     display: flex;
- }
+.zubereitung {
+    display: flex;
+}
 
- .zubereitung img {
-     height: 10px;
-     margin-left: 5px;
-     margin-right: 5px;
- }
+.zubereitung img {
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
- .zubereitung div {
-     background-color: #efefef;
-     border-radius: 5px;
-     padding: 4px 10px 4px 4px;
-     margin-right: 20px;
-     margin-top: 15px;
-     margin-bottom: 20px;
- }
+.zubereitung div {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 4px 10px 4px 4px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
- h2 {
-     font-size: 20px;
-     font-weight: 500;
-     margin-top: 30px;
-     margin-bottom: 0px;
-     text-align: left;
- }
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+}
 
- h3 {
-     font-size: 16px;
-     font-weight: 500;
-     margin-top: 20px;
-     margin-bottom: 20px;
- }
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
- .profil {
-     display: flex;
-     align-items: center;
- }
+.profil {
+    display: flex;
+    align-items: center;
+}
 
- .profil img {
-     height: 65px;
-     border-radius: 50%;
-     margin-right: 30px;
- }
+.profil img {
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
 
- .profil span {
-     font-size: 20px;
- }
+.profil span {
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    .minutesdiv {
+        width: 70px;
+    }
+
+    .portionenauswahl button {
+        margin-top: 10px;
+        width: 150px;
+    }
+
+    .portionenauswahl input {
+        margin-left: 0px;
+    }
+
+    .portionenauswahl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .quickfacts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .quickfacts div {
+        text-align: center;
+        margin: 0;
+    }
+
+    .zubereitung {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+        gap: 12px;
+    }
+
+    .zubereitung div {
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainimage {
+        height: 100px;
+    }
+}
