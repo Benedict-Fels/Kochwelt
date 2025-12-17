@@ -16,8 +16,8 @@ header {
 
 .logo-and-nav {
   height: 120px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 90px;
+  padding-right: 90px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -135,7 +135,6 @@ td {
 input {
   height: 35px;
 }
-
 
 .button {
   font-weight: bold;
