@@ -160,8 +160,8 @@ footer {
    border-bottom: 1px grey dashed;
    border-top: 1px grey dashed;
    gap: 32px;
-   display: flex;
-   justify-content: space-around;
+   /* display: flex;
+   justify-content: space-around; */
    max-width: 750px;
 }
 
@@ -368,6 +368,12 @@ form input {
       object-fit: cover;
    }
 
+   .footer-links {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+   }
+
 }
 
 @media (max-width: 1160px) {
@@ -383,4 +389,19 @@ form input {
   .kontaktformular {
    width: 250px;
   }
+
+  section {
+   padding: 38px 30px;
+  }
+
+   .hide-text {
+   display: none;  
+   }
+
+   .copyright {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+   }
+
 }
