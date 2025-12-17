@@ -110,6 +110,10 @@ h2 {
    margin-left: 24px;
 }
 
+.hide-text{
+   margin-right: 12px;
+}
+
 footer {
    padding: 0 90px;
    background-color: #403b3b;
@@ -160,9 +164,10 @@ footer {
    border-bottom: 1px grey dashed;
    border-top: 1px grey dashed;
    gap: 32px;
-   /* display: flex;
-   justify-content: space-around; */
+   display: flex;
+   justify-content: space-around;
    max-width: 750px;
+   text-align: center;
 }
 
 .footer-link {
@@ -346,7 +351,7 @@ form input {
       margin-left: 0px;
    }
 
-   h1 {
+   .section1_responsive h1 {
       text-align: center;
    }
 
@@ -372,6 +377,7 @@ form input {
       display: flex;
       text-align: center;
       flex-direction: column;
+      gap: 8px;
    }
 
 }
@@ -395,13 +401,26 @@ form input {
   }
 
    .hide-text {
-   display: none;  
+   display: none; 
    }
 
    .copyright {
       display: flex;
       text-align: center;
       flex-direction: column;
+
    }
 
+}
+
+@media (min-width:320px){
+   .footer-links{
+      gap: 8px;
+   }
+
+   .copyright{
+      min-width: 300px;
+      font-size: 14px;
+      gap: 8px;
+   }
 }
