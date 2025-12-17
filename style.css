@@ -348,7 +348,8 @@ form input {
    }
 
    section {
-      padding: 38px 30px;
+      padding: 38px 10px;
+      overflow: hidden;
    }
 
    .hide-text {
