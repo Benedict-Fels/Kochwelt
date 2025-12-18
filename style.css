@@ -11,6 +11,8 @@ body {
    font-size: 16px;
    font-weight: 200;
    color: rgb(40, 40, 40);
+   height: 100%;
+   margin-bottom: 0;
 }
 
 section {
@@ -48,11 +50,19 @@ h2 {
 
 footer {
    padding: 0 90px;
+   bottom: 0;
    background-color: #403b3b;
    display: flex;
    align-items: center;
    flex-direction: column;
    color: white;
+
+   position:fixed;
+   height: 210px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   margin-bottom: 0px;
 }
 
 .folgen {
