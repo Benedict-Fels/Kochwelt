@@ -1,239 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Russische Pfannkuchen</title>
 
-    <link rel="stylesheet" href="russische_pfannkuchen.css" />
-    <link rel="stylesheet" href="../style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Russische Pfannkuchen</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="../img/logo_small.png" />
+  <link rel="stylesheet" href="russische_pfannkuchen.css" />
+  <link rel="stylesheet" href="../style.css" />
 
-    <script>
-      function toggleRespMenu() {
-        document
-          .getElementById("resp_menu")
-          .classList.toggle("resp_menu_closed");
-      }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../img/logo_small.png" />
 
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-    </script>
-  </head>
+  <script>
+    function toggleRespMenu() {
+      document
+        .getElementById("resp_menu")
+        .classList.toggle("resp_menu_closed");
+    }
 
-  <body>
-    <div class="abovesection box-shadow content">
-      <header>
-        <div class="logo-and-nav">
-          <div class="logo-position">
-            <a href="../index.html">
-              <img src="../img/logo_small.png" />
-              <p>Kochwelt</p>
-            </a>
-          </div>
-          <div class="nav-position">
-            <nav>
-              <a href="../index.html">Start</a>
-              <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
-              <a href="../kontakt.html">Kontakt</a>
-              <a href="../impressum.html">Impressum</a>
-            </nav>
-          </div>
-          <div class="burgermenu">
-            <div
-              class="animatedbutton"
-              onclick="myFunction(this); toggleRespMenu()"
-            >
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </div>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
+</head>
+
+<body>
+  <div class="abovesection box-shadow content">
+    <header>
+      <div class="logo-and-nav">
+        <div class="logo-position">
+          <a href="../index.html">
+            <img src="../img/logo_small.png" />
+            <p>Kochwelt</p>
+          </a>
+        </div>
+        <div class="nav-position">
+          <nav>
+            <a href="../index.html">Start</a>
+            <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+            <a href="../kontakt.html">Kontakt</a>
+            <a href="../impressum.html">Impressum</a>
+          </nav>
+        </div>
+        <div class="burgermenu">
+          <div class="animatedbutton" onclick="myFunction(this); toggleRespMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
         </div>
-      </header>
-    </div>
-    <div class="resp_menu_box resp_menu_closed" id="resp_menu">
-      <a href="../index.html">Start</a>
-      <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
-      <a href="../kontakt.html">Kontakt</a>
-      <a href="../impressum.html">Impressum</a>
-    </div>
+      </div>
+    </header>
+  </div>
+  <div class="resp_menu_box resp_menu_closed" id="resp_menu">
+    <a href="../index.html">Start</a>
+    <a href="../pumpkinbread/pumkin_bread.html">Rezept des Tages</a>
+    <a href="../kontakt.html">Kontakt</a>
+    <a href="../impressum.html">Impressum</a>
+  </div>
 
-    <div class="content">
-      <section>
-        <h1>Russische Pfannkuchen (Bliny)</h1>
-        <img
-          class="mainimage"
-          src="../russiche_pfannkuchen/img/pfannkuchen.jpg"
-          alt="russische_pfannkuchen"
-        />
-        <div class="quickfacts">
-          <div class="minutesdiv">
-            <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
-            <span>25 Min.</span>
-          </div>
-          <div>
-            <img src="../img/icons/brain-solid.svg" alt="Brain Icon" />
-            <span>simpel</span>
-          </div>
-          <div>
-            <img src="../img/icons/calendar-alt-regular.svg" alt="Datum Icon" />
-            <span>14.12.2025</span>
-          </div>
+  <div class="content">
+    <section>
+      <h1>Russische Pfannkuchen (Bliny)</h1>
+      <img class="mainimage" src="../russiche_pfannkuchen/img/pfannkuchen.jpg" alt="russische_pfannkuchen" />
+      <div class="quickfacts">
+        <div class="minutesdiv">
+          <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
+          <span>25 Min.</span>
         </div>
-
-        <div class="portionenauswahl">
-            Zutaten für
-            <input type="number" min="1" placeholder="4" />
-            <button>Portionen</button>
-          <table>
-            <tr>
-              <td>500 ml Milch</td>
-            </tr>
-            <tr>
-              <td>4 Eier</td>
-            </tr>
-            <tr>
-              <td>300 g Weizmehl</td>
-            </tr>
-            <tr>
-              <td>2 EL Zucker</td>
-            </tr>
-            <tr>
-              <td>1 Prise Salz</td>
-            </tr>
-            <tr>
-              <td>2 TL Backpulver</td>
-            </tr>
-            <tr>
-              <td>2 EL Pflanzenöl (z.B Sonnenblumenöl)</td>
-            </tr>
-            <tr>
-              <td>Butter oder Öl zum Braten</td>
-            </tr>
-          </table>
+        <div>
+          <img src="../img/icons/brain-solid.svg" alt="Brain Icon" />
+          <span>simpel</span>
         </div>
-
-        <h2>Zubereitung</h2>
-        <div class="zubereitung">
-          <div>
-            <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
-            <span> ca. 10 Minuter</span>
-          </div>
-          <div>
-            <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
-            <span>Gesamtzeit ca. 25 Minuten</span>
-          </div>
+        <div>
+          <img src="../img/icons/calendar-alt-regular.svg" alt="Datum Icon" />
+          <span>14.12.2025</span>
         </div>
-        <ol>
-          <li>
-            Teig vorbereiten: Eier in eine Schüssel geben und mit Zucker und
-            Salz verrühren. Milch hinzufügen und gut vermischen.
-          </li>
-          <li>
-            Mehl einarbeiten: Mehl und Backpulver nach und nach dazugeben und
-            mit einem Schneebesen zu einem glatten Teig verrühren. Zum Schluss 1
-            EL Öl unterrühren.
-          </li>
-          <li>
-            Pfanne erhitzen: Pfanne auf mittlere Hitze erhitzen und leicht mit
-            Butter oder Öl einfetten.
-          </li>
-          <li>
-            Bliny ausbacken: Eine kleine Kelle Teig in die Pfanne geben und
-            durch Schwenken dünn verteilen. Ca. 1–2 Minuten backen, bis sich
-            Bläschen bilden, dann wenden und kurz fertig backen.
-          </li>
-          <li>
-            Servieren: Die fertigen Bliny stapeln und warm servieren – süß oder
-            herzhaft.
-          </li>
-        </ol>
+      </div>
 
-        <h2>Optional zum Servieren:</h2>
-
-        <p>
-          Sauerrahm / Crème fraîche<br />
-          Marmelade<br />
-          Honig <br />
-          Nutella <br />
-          Lachs
-        </p>
-
-        <h3>Rezept erstellt von</h3>
-        <div class="profil">
-          <img src="../img/profile.png" alt="Profilbild" />
-          <span>Temirlan</span>
+      <div class="portionenauswahl">
+        <div class="nospace">
+          <p>Zutaten für</p>
+          <input type="number" min="1" placeholder="  4">
+          <button>Portionen</button>
         </div>
-      </section>
-    </div>
+        <table>
+          <tr>
+            <td>500 ml Milch</td>
+          </tr>
+          <tr>
+            <td>4 Eier</td>
+          </tr>
+          <tr>
+            <td>300 g Weizmehl</td>
+          </tr>
+          <tr>
+            <td>2 EL Zucker</td>
+          </tr>
+          <tr>
+            <td>1 Prise Salz</td>
+          </tr>
+          <tr>
+            <td>2 TL Backpulver</td>
+          </tr>
+          <tr>
+            <td>2 EL Pflanzenöl (z.B Sonnenblumenöl)</td>
+          </tr>
+          <tr>
+            <td>Butter oder Öl zum Braten</td>
+          </tr>
+        </table>
+      </div>
 
-    <footer>
-      <p class="folgen">
-        Folge <img class="logofooter" src="../img/logo_small.png" />
-        <span class="hide-text">Kochwelt</span> auf
+      <h2>Zubereitung</h2>
+      <div class="zubereitung">
+        <div>
+          <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
+          <span> ca. 10 Minuter</span>
+        </div>
+        <div>
+          <img src="../img/icons/clock-regular.svg" alt="Zeit Icon" />
+          <span>Gesamtzeit ca. 25 Minuten</span>
+        </div>
+      </div>
+      <ol>
+        <li>
+          Teig vorbereiten: Eier in eine Schüssel geben und mit Zucker und
+          Salz verrühren. Milch hinzufügen und gut vermischen.
+        </li>
+        <li>
+          Mehl einarbeiten: Mehl und Backpulver nach und nach dazugeben und
+          mit einem Schneebesen zu einem glatten Teig verrühren. Zum Schluss 1
+          EL Öl unterrühren.
+        </li>
+        <li>
+          Pfanne erhitzen: Pfanne auf mittlere Hitze erhitzen und leicht mit
+          Butter oder Öl einfetten.
+        </li>
+        <li>
+          Bliny ausbacken: Eine kleine Kelle Teig in die Pfanne geben und
+          durch Schwenken dünn verteilen. Ca. 1–2 Minuten backen, bis sich
+          Bläschen bilden, dann wenden und kurz fertig backen.
+        </li>
+        <li>
+          Servieren: Die fertigen Bliny stapeln und warm servieren – süß oder
+          herzhaft.
+        </li>
+      </ol>
+
+      <h2>Optional zum Servieren:</h2>
+
+      <p>
+        Sauerrahm / Crème fraîche<br />
+        Marmelade<br />
+        Honig <br />
+        Nutella <br />
+        Lachs
       </p>
-      <br />
-      <div class="footersocialmedia">
-        <a class="border" href="https://de.pinterest.com/" target="_blank">
-          <img
-            class="socialmedia"
-            src="../img/icons/pinterest.svg"
-            alt="Pinterest"
-          />
-        </a>
-        <a
-          class="border"
-          href="https://www.facebook.com/?locale=de_DE"
-          target="_blank"
-        >
-          <img
-            class="socialmedia"
-            src="../img/icons/facebook.svg"
-            alt="Facebook"
-          />
-        </a>
-        <a class="border" href="https://www.instagram.com/" target="_blank">
-          <img
-            class="socialmedia"
-            src="../img/icons/instagram.svg"
-            alt="Instagram"
-          />
-        </a>
-        <a class="border" href="https://www.youtube.com/" target="_blank">
-          <img
-            class="socialmedia"
-            src="../img/icons/youtube.svg"
-            alt="Youtube"
-          />
-        </a>
+
+      <h3>Rezept erstellt von</h3>
+      <div class="profil">
+        <img src="../img/profile.png" alt="Profilbild" />
+        <span>Temirlan</span>
       </div>
-      <div class="footer-links">
-        <a class="footer-link" href="../index.html">Start</a>
-        <a class="footer-link" href="../pumpkinbread/pumpkin_bread.html"
-          >Rezept des Tages</a
-        >
-        <a class="footer-link" href="../kontakt.html">Kontakt</a>
-        <a class="footer-link" href="../impressum.html">Impressum</a>
-        <a class="footer-link" href="../datenschutzerklärung.html"
-          >Datenschutz</a
-        >
+    </section>
+  </div>
+
+  <footer>
+    <p class="folgen">
+      Folge <img class="logofooter" src="../img/logo_small.png" />
+      <span class="hide-text">Kochwelt</span> auf
+    </p>
+    <br />
+    <div class="footersocialmedia">
+      <a class="border" href="https://de.pinterest.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/pinterest.svg" alt="Pinterest" />
+      </a>
+      <a class="border" href="https://www.facebook.com/?locale=de_DE" target="_blank">
+        <img class="socialmedia" src="../img/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a class="border" href="https://www.instagram.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a class="border" href="https://www.youtube.com/" target="_blank">
+        <img class="socialmedia" src="../img/icons/youtube.svg" alt="Youtube" />
+      </a>
+    </div>
+    <div class="footer-links">
+      <a class="footer-link" href="../index.html">Start</a>
+      <a class="footer-link" href="../pumpkinbread/pumpkin_bread.html">Rezept des Tages</a>
+      <a class="footer-link" href="../kontakt.html">Kontakt</a>
+      <a class="footer-link" href="../impressum.html">Impressum</a>
+      <a class="footer-link" href="../datenschutzerklärung.html">Datenschutz</a>
+    </div>
+    <div class="copyright">
+      <p>© Copyright 2025 Developer Akademie GmbH</p>
+      <div class="icon8">
+        <p>Icons stammen von</p>
+        <a class="footer-link" href="https://icons8.de/">icon8</a>
       </div>
-      <div class="copyright">
-        <p>© Copyright 2025 Developer Akademie GmbH</p>
-        <div class="icon8">
-          <p>Icons stammen von</p>
-          <a class="footer-link" href="https://icons8.de/">icon8</a>
-        </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
